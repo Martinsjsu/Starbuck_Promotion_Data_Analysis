@@ -48,3 +48,6 @@ Two Random Forest models were built for offer viewed and offer completed. Model 
 
 ## Results
 The initial two questions were anwserd in different plots and tables with the suggestion for Starbucks.  Detailed discussion **blog is [here](https://medium.com/@quanye003/two-things-starbucks-wished-to-know-before-they-send-the-promotion-offers-out-36aceec102b4).**
+
+## Future Improvement
+This project is mainly research on the customers who viewed and completed offers. The future improvement could be research on the customers who did not react to those offers and find why.
