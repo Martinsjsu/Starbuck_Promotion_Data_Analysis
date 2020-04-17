@@ -53,7 +53,11 @@ Two Random Forest models were built for offer viewed and offer completed.
 **Metrics:**  The Metrics used to measure the model performance is the coefficient of determination R^2.  As well as the classification report for each model. 
 
 ## Results
-The initial two questions were anwserd in different plots and tables with the suggestion for Starbucks.  Detailed discussion **blog is [here](https://medium.com/@quanye003/a-data-scientist-view-of-starbucks-promotion-offer-data-580bdb052070).**
+The initial two questions were anwserd in different plots and tables with the suggestion for Starbucks, which were detailed discussed in Mdeium Blogs. 
 
+**Mdeium Blog for data science perfessonals is [here](https://medium.com/@quanye003/a-data-scientist-view-of-starbucks-promotion-offer-data-580bdb052070).**
+
+
+**Mdeium Blog for people with limited data science knowledge is [here](https://medium.com/@quanye003/two-things-starbucks-wished-to-know-before-they-send-the-promotion-offers-out-36aceec102b4).**
 ## Future Improvement
 This project is mainly research on the customers who viewed and completed offers. The future improvement could be research on the customers who did not react to those offers and find why.
