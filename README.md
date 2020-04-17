@@ -44,10 +44,16 @@ The data is contained in three files:
 - value - (dict of strings) - either an offer id or transaction amount depending on the record
 
 ## Machine Learning Modelling
-Two Random Forest models were built for offer viewed and offer completed. Model with offer viewed scored at 0.64, while model with offer completed scored at 0.77.
+Two Random Forest models were built for offer viewed and offer completed.
+
+**Algorithms:** The algorithms behind the random forest is a combination of decision trees. In the ‘forest’, each decision tree depends on the values of a random vector sampled independently with the same distribution for all trees. 
+
+**Model Improvement by Hyper Parameter with Cross-validation:** By implement grid search, two models were able to be optimized with the best hyper parameters. 
+
+**Metrics:**  The Metrics used to measure the model performance is the coefficient of determination R^2.  As well as the classification report for each model. 
 
 ## Results
-The initial two questions were anwserd in different plots and tables with the suggestion for Starbucks.  Detailed discussion **blog is [here](https://medium.com/@quanye003/two-things-starbucks-wished-to-know-before-they-send-the-promotion-offers-out-36aceec102b4).**
+The initial two questions were anwserd in different plots and tables with the suggestion for Starbucks.  Detailed discussion **blog is [here](https://medium.com/@quanye003/a-data-scientist-view-of-starbucks-promotion-offer-data-580bdb052070).**
 
 ## Future Improvement
 This project is mainly research on the customers who viewed and completed offers. The future improvement could be research on the customers who did not react to those offers and find why.
